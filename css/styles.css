@@ -178,3 +178,16 @@ h3 {
         text-align: center;
     }
 }
+
+/* Custom CSS for Extra Small (xs) screens and above */
+@media (max-width: 464px) {
+    .row-cols-xs-1 {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .pricing-column {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
